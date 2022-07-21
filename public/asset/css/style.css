@@ -1,0 +1,87 @@
+/* default settings */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+::-webkit-scrollbar
+{
+  display: none;
+}
+/* default settings */
+/* site color settings start */
+
+/* site color settings start */
+:root{
+  --primary-color:black;
+}
+.site-primary-color{
+  color: var(--primary-color)!important;
+}
+.site-bg-color{
+  background: var(--primary-color)!important;
+}
+.form-control{
+  border:0.5px solid #ced4da;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+
+  outline: 0;
+  box-shadow:none
+  /* border:0.5px solid #ced4da; */
+}
+/* site color settings start */
+
+
+/* blog section starts */
+.post-one{
+  width:30rem;
+  height:22rem;
+  position: relative;
+  overflow: hidden;
+
+}
+/* post image starts */
+.post-image{
+  position: absolute;
+  width: 100%;
+  height:60%;
+
+}
+.post-image img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* post image starts */
+
+/* post content starts */
+.post-content{
+  position: absolute;
+  top:60%;
+  font-size: 12px;
+  padding:10px;
+  
+}
+/* post content ends */
+
+
+/* postonne read more starts */
+.post-one-more{
+  width:30rem;
+  height:40rem;
+  overflow-y: hidden;
+  overflow: scroll;
+  position: relative;
+  overflow: hidden;
+
+}
+/* postonne read more starts */
+
+/* blog section ends */
+
+
